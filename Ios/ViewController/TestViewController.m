@@ -8,7 +8,7 @@
 
 #import "TestViewController.h"
 
-@interface TestViewController ()
+@interface TestViewController (private)
 
 @end
 
