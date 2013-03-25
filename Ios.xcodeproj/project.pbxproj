@@ -23,6 +23,8 @@
 		46A34C1317000239006815EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A34BEE17000238006815EA /* Foundation.framework */; };
 		46A34C1B17000239006815EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46A34C1917000239006815EA /* InfoPlist.strings */; };
 		46A34C1E17000239006815EA /* IosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34C1D17000239006815EA /* IosTests.m */; };
+		46A34C2B170003AD006815EA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34C29170003AD006815EA /* TestViewController.m */; };
+		46A34C2C170003AD006815EA /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A34C2A170003AD006815EA /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		46A34C1A17000239006815EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46A34C1C17000239006815EA /* IosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosTests.h; sourceTree = "<group>"; };
 		46A34C1D17000239006815EA /* IosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosTests.m; sourceTree = "<group>"; };
+		46A34C28170003AD006815EA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ViewController/TestViewController.h; sourceTree = "<group>"; };
+		46A34C29170003AD006815EA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ViewController/TestViewController.m; sourceTree = "<group>"; };
+		46A34C2A170003AD006815EA /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestViewController.xib; path = ViewController/TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 		46A34BF217000238006815EA /* Ios */ = {
 			isa = PBXGroup;
 			children = (
+				46A34C2717000323006815EA /* ViewController */,
 				46A34BFB17000238006815EA /* AppDelegate.h */,
 				46A34BFC17000238006815EA /* AppDelegate.m */,
 				46A34C0417000238006815EA /* ViewController.h */,
@@ -158,6 +164,16 @@
 				46A34C1917000239006815EA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46A34C2717000323006815EA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46A34C28170003AD006815EA /* TestViewController.h */,
+				46A34C29170003AD006815EA /* TestViewController.m */,
+				46A34C2A170003AD006815EA /* TestViewController.xib */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +252,7 @@
 				46A34C0117000238006815EA /* Default@2x.png in Resources */,
 				46A34C0317000238006815EA /* Default-568h@2x.png in Resources */,
 				46A34C0917000238006815EA /* ViewController.xib in Resources */,
+				46A34C2C170003AD006815EA /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				46A34BF917000238006815EA /* main.m in Sources */,
 				46A34BFD17000238006815EA /* AppDelegate.m in Sources */,
 				46A34C0617000238006815EA /* ViewController.m in Sources */,
+				46A34C2B170003AD006815EA /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
